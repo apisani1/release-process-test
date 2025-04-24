@@ -57,8 +57,8 @@ class PrereleaseType(Enum):
     RC = "rc"
 
 
-PROJECT_FILE = "pyproject_test.toml"
-CHANGELOG_FILE = "CHANGELOG_TEST.md"
+PROJECT_FILE = "pyproject.toml"
+CHANGELOG_FILE = "CHANGELOG.md"
 BEFORE_LAST_RELEASE = ".before_last_release.pkl"
 
 files_backup: Optional[Iterator[Tuple[str, str]]] = None
